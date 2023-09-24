@@ -1,0 +1,35 @@
+.login-body{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/deer-background.jpg") no-repeat;
+    background-size: cover;
+    background-position: top -100px left 0;
+}
+
+.login-card{
+    width: 550px;
+    height: 600px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+
+.login-label{
+    transition: 0.5s;
+}
+
+
+.login-input{
+    padding: 2px 0;
+}
+
+.login-input:focus~.login-label,.login-input:valid~.login-label {
+    transform: translateY(-30px);
+}
+
+
+.checkbox{
+    accent-color: rgb(80, 80, 80);
+}
